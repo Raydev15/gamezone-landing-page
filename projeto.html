@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hub do Projeto - TI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #f4f7f6;
+            --primary: #2c3e50;
+            --accent: #ff4d05;
+            --white: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+        body { background: var(--bg); color: var(--primary); padding: 40px 20px; }
+        .container { max-width: 900px; margin: 0 auto; background: var(--white); padding: 40px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        h1 { text-align: center; margin-bottom: 10px; color: var(--primary); }
+        p.subtitle { text-align: center; color: #666; margin-bottom: 40px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .card { border: 2px solid #eee; padding: 25px; border-radius: 12px; text-align: center; transition: all 0.3s ease; text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center; }
+        .card:hover { border-color: var(--accent); transform: translateY(-5px); box-shadow: 0 5px 15px rgba(255,77,5,0.1); }
+        .card i { font-size: 40px; color: var(--accent); margin-bottom: 15px; }
+        .card h3 { margin-bottom: 10px; }
+        .card p { font-size: 14px; color: #777; }
+        .footer { margin-top: 50px; text-align: center; font-size: 14px; color: #999; }
+        .btn-main { display: block; width: 100%; max-width: 300px; margin: 40px auto 0; text-align: center; background: var(--accent); color: white; padding: 15px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: background 0.3s; }
+        .btn-main:hover { background: #e64404; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Entrega de Trabalho - TI</h1>
+        <p class="subtitle">Acesse abaixo todos os arquivos e o resultado final do projeto.</p>
+        
+        <div class="grid">
+            <!-- Visualizar Site -->
+            <a href="index.html" class="card">
+                <i class="ri-layout-line"></i>
+                <h3>Ver Site Pronto</h3>
+                <p>Visualize a Landing Page Gamer funcionando no navegador.</p>
+            </a>
+
+            <!-- Relatório PDF -->
+            <a href="relatorio_ti.pdf" target="_blank" class="card">
+                <i class="ri-file-pdf-line"></i>
+                <h3>Relatório em PDF</h3>
+                <p>Leia a análise técnica e o passo a passo do trabalho.</p>
+            </a>
+
+            <!-- Código Fonte -->
+            <a href="https://github.com/Raydev15/gamezone-landing-page" target="_blank" class="card">
+                <i class="ri-github-line"></i>
+                <h3>Repositório GitHub</h3>
+                <p>Acesse o código-fonte completo e o histórico de commits.</p>
+            </a>
+        </div>
+
+        <a href="index.html" class="btn-main">Abrir Projeto Principal</a>
+
+        <div class="footer">
+            Desenvolvido por [Seu Nome] &copy; 2026
+        </div>
+    </div>
+</body>
+</html>
