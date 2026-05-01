@@ -1,34 +1,18 @@
-# GameZone - Landing Page Gamer
+# Meu Projeto de Landing Page Gamer
 
-Este projeto é uma Landing Page moderna e responsiva para uma plataforma de jogos, desenvolvida como parte de um estudo prático de tecnologias Front-End (HTML5, CSS3 e JavaScript).
+Este é um projeto que desenvolvi para a faculdade de TI, estudando como criar sites modernos e responsivos. Usei como base alguns tutoriais de desenvolvimento web para aprender a mexer melhor com HTML, CSS e um pouco de JavaScript.
 
-## 🚀 Tecnologias Utilizadas
+## 🛠️ O que eu usei:
+- **HTML5**: Para montar a estrutura do site.
+- **CSS3**: Para deixar o visual bonito, com cores e fontes legais.
+- **JavaScript**: Para fazer o menu do celular funcionar.
+- **ScrollReveal**: Uma biblioteca para fazer as animações de quando a página carrega.
 
-- **HTML5**: Estruturação semântica do conteúdo.
-- **CSS3**: Estilização avançada, Flexbox, Grid e Responsividade.
-- **JavaScript**: Manipulação do DOM para interatividade e menu mobile.
-- **ScrollReveal**: Biblioteca para animações de rolagem.
-- **Remix Icons**: Conjunto de ícones vetoriais.
-- **Google Fonts**: Tipografia personalizada (Poppins e Permanent Marker).
+## 📱 Responsividade
+O site funciona tanto no computador quanto no celular. Eu usei Media Queries no CSS para ajustar o tamanho das letras e das imagens dependendo da tela.
 
-## 📋 Funcionalidades
-
-- Layout totalmente responsivo (Desktop, Tablet e Mobile).
-- Menu de navegação interativo com efeito sticky.
-- Animações de entrada suaves ao carregar a página.
-- Design moderno com foco na experiência do usuário (UX).
-
-## 🛠️ Como executar o projeto
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/[SEU-USUARIO]/gamezone-landing-page.git
-   ```
-2. Abra o arquivo `index.html` em seu navegador preferido.
-
-## 📚 Contexto Acadêmico
-
-Este projeto foi desenvolvido com base na análise de tutoriais técnicos de desenvolvimento web, focando na aplicação prática de conceitos de design e programação front-end para o mercado de trabalho.
+## 🚀 Como ver o projeto
+Você pode abrir o arquivo `index.html` no seu navegador ou acessar o link do GitHub Pages que deixei configurado.
 
 ---
-Desenvolvido por [Seu Nome]
+Feito por [Seu Nome]
